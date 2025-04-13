@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuto nel Portale Anello Nero</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function checkPassword() {
+            const input = document.getElementById("code").value;
+            if (input === "An3llon3ro") {
+                window.location.href = "dossier-aron.html";
+            } else {
+                alert("Codice errato. Accesso negato.");
+            }
+        }
+    </script>
+</head>
+<body class="dark">
+    <div class="container">
+        <h1>Benvenuto nel Portale Anello Nero</h1>
+        <p>Per accedere alla sezione riservata, inserisci il codice che ti è stato fornito. Questo ti permetterà di entrare nella rete esclusiva.</p>
+        <input type="password" id="code" placeholder="Codice..." />
+        <button class="button" onclick="checkPassword()">Accedi</button>
+    </div>
+</body>
+</html>

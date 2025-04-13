@@ -1,0 +1,27 @@
+body.dark {
+    background-color: #111;
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
